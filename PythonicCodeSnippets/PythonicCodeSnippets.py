@@ -1,9 +1,20 @@
-#(1)»ñµÃÕý¸ºÎÞÇîµÄfloatÖµ
-'''µ±Éæ¼° > ºÍ < ÔËËãÊ±, ËùÓÐÊý¶¼±È-inf´ó, ËùÓÐÊý¶¼±È+infÐ¡'''
+ï»¿# -*- coding:utf-8 -*-
+
+#(1)èŽ·å¾—æ­£è´Ÿæ— ç©·çš„floatå€¼
+'''å½“æ¶‰åŠ > å’Œ < è¿ç®—æ—¶, æ‰€æœ‰æ•°éƒ½æ¯”-infå¤§, æ‰€æœ‰æ•°éƒ½æ¯”+infå°'''
 maxFloat = float('inf')
 minFloat = float('-inf')
 
-#(2)½»»»Á½¸ö±äÁ¿Öµ
+#(2)äº¤æ¢ä¸¤ä¸ªå˜é‡å€¼
 a, b = b, a
 
-#(3)
+#(3)å­—ç¬¦ä¸²åˆ—è¡¨çš„è¿žæŽ¥
+strList = ["Python", "is", "good"]  
+res =  ' '.join(strList) #Python is good 
+res = ''.join(strList) #Pythonisgood
+
+
+
+
+if __name__ == "__main__":
+    print("main")
